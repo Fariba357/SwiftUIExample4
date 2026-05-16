@@ -5,14 +5,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
-    ) -> Bool {
-        window = UIWindow(frame: UIScreen.main.bounds)
+    ) -> Bool {  window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = ViewController()
         window?.makeKeyAndVisible()
         return true
-    }
-}
-// ViewController with label and button
+    }} // ViewController with label and button
 class ViewController: UIViewController {
     let label = UILabel()
     let button = UIButton(type: .system)

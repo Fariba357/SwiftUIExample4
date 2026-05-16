@@ -1,0 +1,10 @@
+workflows:
+  swift_assignment:
+    name: Run Swift Assignment Script
+    max_build_duration: 10
+    environment:
+      xcode: latest
+    scripts:
+      - name: Run Swift file
+        script: |
+          swift main.swift
